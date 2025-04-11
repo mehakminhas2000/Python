@@ -1,5 +1,5 @@
 fname = input("Enter your first name: ")
 lname = input("Enter your last name: ")
-
-print(f"Hello, {fname} {lname}! Welcome to the Python program.")
+name = fname + " " + lname
+print(f"Hello, {name}! Welcome to the Python program.")
 
